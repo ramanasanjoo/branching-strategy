@@ -28,23 +28,23 @@
                                                  #@@@@`               #@@@@`                      
 ```
 
-# Mobify Branching Strategy
+# APIGW Branching Strategy
 
-This document represents Mobify's current branching and release strategy. It
+This document represents APIGW's current branching and release strategy. It
 provides a brief overview of the two release models that we use:
 [release deployment](release-deployment.md) and
 [continuous deployment](continuous-deployment.md).
 
 Each workflow tries to make things as simple as possible while still being
-flexible enough to work for all teams at Mobify.
+flexible enough to work for all teams at APIGW.
 
 At the end of each document is a list of common scenarios you will encounter
 and how Mobify's branching strategies apply.
 
 ## What is the purpose of this document?
 
-As Mobify continues to grow and expand its operations globally, consistency
-across all teams and partners is a key focus. The more aligned all Mobify
+As APIGW continues to grow and expand its operations globally, consistency
+across all teams and partners is a key focus. The more aligned all APIGW
 projects are, the more productive everyone will be.
 
 This repository and its documentation outline:
@@ -98,7 +98,7 @@ Other than that, choose names that are descriptive and concise. You don't need a
 name that is a novel because most branches should be relatively short-lived (hours to
 days, not weeks).
 
-## Git @ Mobify
+## Git @ APIGW
 
 Mobify uses git (specifically [Github](github.com)) for all source control. Git is
 a very flexible tool and we have adopted some patterns when using git specifically
