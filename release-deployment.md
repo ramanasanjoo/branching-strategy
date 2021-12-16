@@ -45,8 +45,8 @@ and how to deal with them from a branching point of view.
 
    ```
    $ git checkout develop
-   $ git checkout -b MYTEAM-123-new-documentation
-   $ git push --set-upstream MYTEAM-123-new-documentation
+   $ git checkout -b APIGW-123-new-documentation
+   $ git push --set-upstream APIGW-123-new-documentation
    ```
 
 1. Develop the code for the new feature and commit. Push your changes often. This
@@ -66,10 +66,10 @@ and how to deal with them from a branching point of view.
 1. Navigate to the project on [Github](www.github.com) and open a pull request with
    the following branch settings:
    * Base: `develop`
-   * Compare: `MYTEAM-123-new-documentation`
+   * Compare: `APIGW-123-new-documentation`
 
 1. When the pull request was reviewed, merge and close it and delete the
-   `MYTEAM-123-new-documentation` branch.
+   `APIGW-123-new-documentation` branch.
 
 ### Develop multiple features in parallel
 
@@ -143,7 +143,7 @@ There's nothing special about that. Each developer follows the above [Develop a 
 ### Change in plan, pull a feature from a release
 
 **TBD: Discuss**
-Mike N: That probably means recreating the release branch, unless we have short-lived release branches
+XXX N: That probably means recreating the release branch, unless we have short-lived release branches
 
 ### Supporting old releases
 
